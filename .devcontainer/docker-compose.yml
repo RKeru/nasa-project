@@ -1,0 +1,13 @@
+version: '3.9'
+
+services:
+  nasa-project:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    stdin_open: true
+    tty: true
+    volumes:
+      - ..:/app
+      - ~/.ssh:/tmp/.ssh:ro
+    working_dir: /app
