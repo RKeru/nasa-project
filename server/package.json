@@ -10,6 +10,8 @@
   "author": "rkeru",
   "license": "ISC",
   "dependencies": {
+    "cors": "^2.8.5",
+    "csv-parse": "^5.3.3",
     "express": "^4.18.2"
   },
   "devDependencies": {
