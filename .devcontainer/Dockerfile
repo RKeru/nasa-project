@@ -6,6 +6,7 @@ WORKDIR /app
 RUN apt-get update && apt-get install -q -y \
     git
 
-USER node
+# USER node
 
+EXPOSE 3000
 EXPOSE 8000
