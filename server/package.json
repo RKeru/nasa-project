@@ -1,0 +1,18 @@
+{
+  "name": "nasa-project-api",
+  "version": "1.0.0",
+  "description": "Server package for NASA Project",
+  "main": "src/server.js",
+  "scripts": {
+    "watch": "nodemon src/server.js",
+    "start": "node src/server.js"
+  },
+  "author": "rkeru",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
